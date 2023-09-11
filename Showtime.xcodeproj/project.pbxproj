@@ -196,7 +196,6 @@
 				6D1FB3C1A9BA362F1613128D /* Pods-ShowtimeTests.debug.xcconfig */,
 				3F131DE85E7F0F7FFDA6FADB /* Pods-ShowtimeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
