@@ -6,6 +6,7 @@ target 'Showtime' do
   use_frameworks!
 
   # Pods for Showtime
+  pod 'SwiftUI-Shimmer', :git => 'https://github.com/markiv/SwiftUI-Shimmer.git'
 
   target 'ShowtimeTests' do
     inherit! :search_paths

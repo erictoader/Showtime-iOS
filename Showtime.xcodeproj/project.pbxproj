@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		00E8142E6DABDC0B06DDA4E1 /* Pods_ShowtimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB1B25C3B52F5D24C07EA7B /* Pods_ShowtimeTests.framework */; };
+		14359FB42AAF6FB3003D789A /* UiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FB32AAF6FB3003D789A /* UiUtils.swift */; };
+		14359FB72AAF769B003D789A /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FB62AAF769B003D789A /* RowView.swift */; };
+		14359FBA2AAF7838003D789A /* RowModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FB92AAF7838003D789A /* RowModel.swift */; };
+		14359FBD2AAF7B5A003D789A /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FBC2AAF7B5A003D789A /* MovieModel.swift */; };
+		14359FBF2AAF7C70003D789A /* AssetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FBE2AAF7C70003D789A /* AssetCardView.swift */; };
+		14359FC12AAF7C9B003D789A /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FC02AAF7C9B003D789A /* AssetModel.swift */; };
+		14359FC62AB03DEB003D789A /* RowTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FC52AB03DEB003D789A /* RowTitleView.swift */; };
+		14359FC92AB03EE1003D789A /* CarouselCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FC82AB03EE1003D789A /* CarouselCardView.swift */; };
+		14359FCB2AB03F97003D789A /* CarouselModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FCA2AB03F97003D789A /* CarouselModel.swift */; };
+		14359FCD2AB04025003D789A /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14359FCC2AB04025003D789A /* CarouselView.swift */; };
 		144920152AAF3754008C92D1 /* ShowtimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920142AAF3754008C92D1 /* ShowtimeApp.swift */; };
 		144920172AAF3754008C92D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920162AAF3754008C92D1 /* ContentView.swift */; };
 		144920192AAF3755008C92D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 144920182AAF3755008C92D1 /* Assets.xcassets */; };
@@ -15,6 +25,9 @@
 		144920262AAF3755008C92D1 /* ShowtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920252AAF3755008C92D1 /* ShowtimeTests.swift */; };
 		144920302AAF3755008C92D1 /* ShowtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1449202F2AAF3755008C92D1 /* ShowtimeUITests.swift */; };
 		144920322AAF3755008C92D1 /* ShowtimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920312AAF3755008C92D1 /* ShowtimeUITestsLaunchTests.swift */; };
+		144920442AAF451F008C92D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920432AAF451F008C92D1 /* NetworkManager.swift */; };
+		144920462AAF4955008C92D1 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920452AAF4955008C92D1 /* NetworkError.swift */; };
+		144920492AAF63FF008C92D1 /* MovieCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 144920482AAF63FF008C92D1 /* MovieCardView.swift */; };
 		56D67C86AC37DFC1CD6B5202 /* Pods_Showtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8008E05885D882857E7010FE /* Pods_Showtime.framework */; };
 		B71EB4B8252B5D3F9192B57E /* Pods_Showtime_ShowtimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9CBB5BC767228908F96DAF7 /* Pods_Showtime_ShowtimeUITests.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +50,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14359FB32AAF6FB3003D789A /* UiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiUtils.swift; sourceTree = "<group>"; };
+		14359FB62AAF769B003D789A /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		14359FB92AAF7838003D789A /* RowModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowModel.swift; sourceTree = "<group>"; };
+		14359FBC2AAF7B5A003D789A /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		14359FBE2AAF7C70003D789A /* AssetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCardView.swift; sourceTree = "<group>"; };
+		14359FC02AAF7C9B003D789A /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
+		14359FC52AB03DEB003D789A /* RowTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTitleView.swift; sourceTree = "<group>"; };
+		14359FC82AB03EE1003D789A /* CarouselCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCardView.swift; sourceTree = "<group>"; };
+		14359FCA2AB03F97003D789A /* CarouselModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselModel.swift; sourceTree = "<group>"; };
+		14359FCC2AB04025003D789A /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		144920112AAF3754008C92D1 /* Showtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Showtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		144920142AAF3754008C92D1 /* ShowtimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowtimeApp.swift; sourceTree = "<group>"; };
 		144920162AAF3754008C92D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +70,9 @@
 		1449202B2AAF3755008C92D1 /* ShowtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1449202F2AAF3755008C92D1 /* ShowtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowtimeUITests.swift; sourceTree = "<group>"; };
 		144920312AAF3755008C92D1 /* ShowtimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowtimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		144920432AAF451F008C92D1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		144920452AAF4955008C92D1 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		144920482AAF63FF008C92D1 /* MovieCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCardView.swift; sourceTree = "<group>"; };
 		19848D5C743FF787D5512099 /* Pods-Showtime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Showtime.debug.xcconfig"; path = "Target Support Files/Pods-Showtime/Pods-Showtime.debug.xcconfig"; sourceTree = "<group>"; };
 		3F131DE85E7F0F7FFDA6FADB /* Pods-ShowtimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShowtimeTests.release.xcconfig"; path = "Target Support Files/Pods-ShowtimeTests/Pods-ShowtimeTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C845C8360C9BA65CFB247ED /* Pods-Showtime-ShowtimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Showtime-ShowtimeUITests.release.xcconfig"; path = "Target Support Files/Pods-Showtime-ShowtimeUITests/Pods-Showtime-ShowtimeUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -86,6 +112,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14359FB52AAF7688003D789A /* Row */ = {
+			isa = PBXGroup;
+			children = (
+				14359FB62AAF769B003D789A /* RowView.swift */,
+				14359FC52AB03DEB003D789A /* RowTitleView.swift */,
+			);
+			path = Row;
+			sourceTree = "<group>";
+		};
+		14359FBB2AAF7B4D003D789A /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				14359FBC2AAF7B5A003D789A /* MovieModel.swift */,
+				14359FC02AAF7C9B003D789A /* AssetModel.swift */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		14359FC72AB03ECF003D789A /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				14359FC82AB03EE1003D789A /* CarouselCardView.swift */,
+				14359FCC2AB04025003D789A /* CarouselView.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		144920082AAF3754008C92D1 = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +202,8 @@
 		1449203E2AAF37A6008C92D1 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				144920432AAF451F008C92D1 /* NetworkManager.swift */,
+				144920452AAF4955008C92D1 /* NetworkError.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -163,8 +218,12 @@
 		144920402AAF37C4008C92D1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14359FC72AB03ECF003D789A /* Carousel */,
+				14359FB52AAF7688003D789A /* Row */,
+				144920472AAF63DF008C92D1 /* Card */,
 				144920142AAF3754008C92D1 /* ShowtimeApp.swift */,
 				144920162AAF3754008C92D1 /* ContentView.swift */,
+				14359FB32AAF6FB3003D789A /* UiUtils.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -172,8 +231,20 @@
 		144920412AAF37CC008C92D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				14359FBB2AAF7B4D003D789A /* Asset */,
+				14359FB92AAF7838003D789A /* RowModel.swift */,
+				14359FCA2AB03F97003D789A /* CarouselModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		144920472AAF63DF008C92D1 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				144920482AAF63FF008C92D1 /* MovieCardView.swift */,
+				14359FBE2AAF7C70003D789A /* AssetCardView.swift */,
+			);
+			path = Card;
 			sourceTree = "<group>";
 		};
 		54BAEC83E727072C54562614 /* Frameworks */ = {
@@ -210,6 +281,7 @@
 				1449200D2AAF3754008C92D1 /* Sources */,
 				1449200E2AAF3754008C92D1 /* Frameworks */,
 				1449200F2AAF3754008C92D1 /* Resources */,
+				A5A38971FB0D25B402AFA7B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +319,7 @@
 				144920272AAF3755008C92D1 /* Sources */,
 				144920282AAF3755008C92D1 /* Frameworks */,
 				144920292AAF3755008C92D1 /* Resources */,
+				E3D48AE59DF4832ACB4C66D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,6 +445,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A5A38971FB0D25B402AFA7B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Showtime/Pods-Showtime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Showtime/Pods-Showtime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Showtime/Pods-Showtime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		C6D78CFEDE3F8987D99789C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +484,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E3D48AE59DF4832ACB4C66D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Showtime-ShowtimeUITests/Pods-Showtime-ShowtimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Showtime-ShowtimeUITests/Pods-Showtime-ShowtimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Showtime-ShowtimeUITests/Pods-Showtime-ShowtimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -401,8 +508,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14359FBD2AAF7B5A003D789A /* MovieModel.swift in Sources */,
+				144920462AAF4955008C92D1 /* NetworkError.swift in Sources */,
+				14359FC62AB03DEB003D789A /* RowTitleView.swift in Sources */,
+				14359FC92AB03EE1003D789A /* CarouselCardView.swift in Sources */,
+				14359FB42AAF6FB3003D789A /* UiUtils.swift in Sources */,
+				14359FBA2AAF7838003D789A /* RowModel.swift in Sources */,
+				14359FB72AAF769B003D789A /* RowView.swift in Sources */,
+				144920492AAF63FF008C92D1 /* MovieCardView.swift in Sources */,
+				144920442AAF451F008C92D1 /* NetworkManager.swift in Sources */,
 				144920172AAF3754008C92D1 /* ContentView.swift in Sources */,
 				144920152AAF3754008C92D1 /* ShowtimeApp.swift in Sources */,
+				14359FBF2AAF7C70003D789A /* AssetCardView.swift in Sources */,
+				14359FC12AAF7C9B003D789A /* AssetModel.swift in Sources */,
+				14359FCB2AB03F97003D789A /* CarouselModel.swift in Sources */,
+				14359FCD2AB04025003D789A /* CarouselView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

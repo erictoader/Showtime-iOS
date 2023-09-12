@@ -1,3 +1,21 @@
-PODFILE CHECKSUM: 88b6ff68962b97dd803e3266a596218f0d5800fc
+PODS:
+  - SwiftUI-Shimmer (1.4.0)
+
+DEPENDENCIES:
+  - SwiftUI-Shimmer (from `https://github.com/markiv/SwiftUI-Shimmer.git`)
+
+EXTERNAL SOURCES:
+  SwiftUI-Shimmer:
+    :git: https://github.com/markiv/SwiftUI-Shimmer.git
+
+CHECKOUT OPTIONS:
+  SwiftUI-Shimmer:
+    :commit: 1f3a620e4abe890d00008cb2af7023d810b433a7
+    :git: https://github.com/markiv/SwiftUI-Shimmer.git
+
+SPEC CHECKSUMS:
+  SwiftUI-Shimmer: 26954ba07da310a50e24a3e54ce5684951ebbc17
+
+PODFILE CHECKSUM: a4b8f858418bba7863cf99defc902e44b13f4634
 
 COCOAPODS: 1.12.1
